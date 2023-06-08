@@ -1,0 +1,41 @@
+.notification{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:aqua;
+    height: 400px;
+    width: 500px;
+    position: relative;
+}
+
+.notification-count{
+    position:absolute;
+    top:0;
+    right:0;
+    text-align: right;
+    margin: 10px;
+    color:white;
+    border: none;
+    border-radius: 45%;
+    padding: 7px;
+    background-color: red;
+}
+
+.fix{
+    position: sticky;
+    top: 0;
+    /* bottom: 0; */
+    left: 0;
+    background-color: antiquewhite;
+    height: 100px;
+    width: 100%;
+    
+}
+.scroll{
+    background-color: deeppink;
+    height: 200px;
+}
+
+body{
+    height: 1200px;
+}
